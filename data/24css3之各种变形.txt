@@ -1,0 +1,36 @@
+<div id="cnblogs_post_body"><p>css3&#x4E2D;&#x7684;&#x53D8;&#x5F62;</p>
+<p>Chrome&#x548C;safai&#x9700;&#x524D;&#x7F00;&#x52A0;-webkit-&#xFF0C;Foxfire&#x9700;&#x52A0;&#x524D;&#x7F00;-moz-</p>
+<p>1,&#x65CB;&#x8F6C; rotate()</p>
+<p>div{<br>  width: 300px;<br>  height: 300px;<br> transform:rotate(20deg);<br>}</p>
+<p>2,&#x626D;&#x66F2; skew()</p>
+<p>div {<br>  width: 300px;<br>  height: 300px;<br>  transform:skew(45deg,-10deg);<br>}</p>
+<p>3,&#x7F29;&#x653E; scale()</p>
+<p><strong>scale(X,Y)&#x4F7F;&#x5143;&#x7D20;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x548C;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x540C;&#x65F6;&#x7F29;&#x653E;</strong>&#xFF08;&#x4E5F;&#x5C31;&#x662F;X&#x8F74;&#x548C;Y&#x8F74;&#x540C;&#x65F6;&#x7F29;&#x653E;&#xFF09;</p>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x53EA;&#x7F29;&#x653E; x&#x8F74;&#xFF0C;&#x6216;&#x53EA;&#x7F29;&#x653E;y&#x8F74;&#x3002;</p>
+<p>div {<br>  width: 200px;<br>  height: 200px;<br>  background: orange;<br>}</p>
+<p>.wrapper div:hover {<br>  opacity: .5;<br>  transform: scale(0.8);<br>}</p>
+<p>4,&#x4F4D;&#x79FB; translate()</p>
+<p><strong>translate()&#x51FD;&#x6570;</strong>&#x53EF;&#x4EE5;&#x5C06;&#x5143;&#x7D20;&#x5411;&#x6307;&#x5B9A;&#x7684;&#x65B9;&#x5411;&#x79FB;&#x52A8;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E;position&#x4E2D;&#x7684;<strong>relative</strong>&#x3002;</p>
+<p>&#x6216;&#x4EE5;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x4E3A;&#xFF0C;&#x4F7F;&#x7528;translate()&#x51FD;&#x6570;&#xFF0C;&#x53EF;&#x4EE5;&#x628A;&#x5143;&#x7D20;&#x4ECE;&#x539F;&#x6765;&#x7684;&#x4F4D;&#x7F6E;&#x79FB;&#x52A8;&#xFF0C;</p>
+<p>&#x800C;&#x4E0D;&#x5F71;&#x54CD;&#x5728;X&#x3001;Y&#x8F74;&#x4E0A;&#x7684;&#x4EFB;&#x4F55;Web&#x7EC4;&#x4EF6;&#x3002;</p>
+<p>5&#xFF0C;&#x539F;&#x70B9; transform-origin</p>
+<p>CSS&#x53D8;&#x5F62;&#x8FDB;&#x884C;&#x7684;&#x65CB;&#x8F6C;&#x3001;&#x4F4D;&#x79FB;&#x3001;&#x7F29;&#x653E;&#xFF0C;&#x626D;&#x66F2;&#x7B49;&#x64CD;&#x4F5C;&#x90FD;&#x662F;<strong>&#x4EE5;&#x5143;&#x7D20;&#x81EA;&#x5DF1;&#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;&#x8FDB;&#x884C;&#x53D8;&#x5F62;</strong>&#x3002;</p>
+<p>&#x4F46;&#x5F88;&#x591A;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;transform-origin&#x6765;&#x5BF9;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x539F;&#x70B9;&#x4F4D;&#x7F6E;&#x6539;&#x53D8;&#xFF0C;&#x4F7F;&#x5143;&#x7D20;</p>
+<p>&#x539F;&#x70B9;&#x4E0D;&#x5728;&#x5143;&#x7D20;&#x7684;&#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;&#xFF0C;&#x4EE5;&#x8FBE;&#x5230;&#x9700;&#x8981;&#x7684;&#x539F;&#x70B9;&#x4F4D;&#x7F6E;&#x3002;</p>
+<p>div {<br>  transform: skew(45deg);<br>  transform-origin:top;<br>}</p>
+<p>6,&#x8FC7;&#x6E21;</p>
+<p>div {<br>  width: 200px;<br>  height: 200px;<br>  background: red;<br>  margin: 20px auto;<br>  -webkit-transition-property: all;<br>  transition-property: all; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; //&#x6307;&#x5B9A;&#x8FC7;&#x6E21;&#x6216;&#x52A8;&#x6001;&#x6A21;&#x62DF;&#x7684;css&#x5C5E;&#x6027; &#xFF08;all&#x662F;&#x6307;&#x6240;&#x6709;&#xFF09;<br>  -webkit-transition-duration:5s;<br>  transition-duration:5s; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; //&#x6307;&#x5B9A;&#x5B8C;&#x6210;&#x8FC7;&#x6E21;&#x7684;&#x65F6;&#x95F4;<br>  -webkit-transition-timing-function: linear;<br>  transition-timing-function: linear; //&#x6307;&#x5B9A;&#x8FC7;&#x6E21;&#x7684;&#x51FD;&#x6570; linear/ease/ease-in/ease-out/ease-in-out/cubicbezier(n,n,n,n) n&#x4E3A;0-1<br>  -webkit-transition-delay: .18s;<br>      transition-delay:.18s; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; //&#x6307;&#x5B9A;&#x5F00;&#x59CB;&#x51FA;&#x73B0;&#x7684;&#x5EF6;&#x8FDF;&#x65F6;&#x95F4;<br>}<br>div:hover {<br>  width: 400px;<br>  height:400px;<br>}</p>
+<p>7&#xFF0C;Keyframes&#x88AB;&#x79F0;&#x4E3A;&#x5173;&#x952E;&#x5E27;&#xFF0C;css3&#x4E2D;&#x4EE5;&#x201C;@keyframes&#x201D;&#x5F00;&#x5934;&#xFF0C;&#x540E;&#x9762;&#x7D27;&#x8DDF;&#x7740;&#x662F;&#x52A8;&#x753B;&#x540D;&#x79F0;&#x52A0;&#x4E0A;&#x4E00;&#x5BF9;&#x82B1;&#x62EC;&#x53F7;&#x201C;{...}&#x201D;</p>
+<p>@keyframes changecolor{<br>  0%{<br>    background: red;<br>  }<br>  20%{<br>    background:blue;<br>  }<br>  40%{<br>    background:orange;<br>  }<br>  60%{<br>    background:green;<br>  }<br>  80%{<br>    background:yellow;<br>  }<br>  100%{<br>    background: red;<br>  }<br>}<br>div {<br>  width: 300px;<br>  height: 200px;<br>}<br>div:hover {<br>  animation: changecolor 5s ease-out .2s;</p>
+<p>}</p>
+<p>&#x7B49;&#x4EF7;&#x4E8E;</p>
+<p>div:hover{</p>
+<p>animation-name:changecolor;</p>
+<p>animation-duration:5s; &#xA0;&#xA0;</p>
+<p>animation-timing-function:ease-out;</p>
+<p>animation-delay:1;</p>
+<p>animation-iteration-count:infinite;//&#x52A8;&#x753B;&#x64AD;&#x653E;&#x6B21;&#x6570; &#x6574;&#x6570;&#x3002;</p>
+<p>animation-play-state:paused;//&#x4E3B;&#x8981;&#x7528;&#x6765;&#x63A7;&#x5236;&#x5143;&#x7D20;&#x52A8;&#x753B;&#x7684;<strong>&#x64AD;&#x653E;&#x72B6;&#x6001;</strong>&#x3002;</p>
+<p>animation-direction:alternate;//&#x52A8;&#x753B;&#x65B9;&#x5411;&#xFF0C;normal&#x6BCF;&#x6B21;&#x5FAA;&#x73AF;&#x5411;&#x524D;&#xFF0C;alternate&#x5076;&#x6B21;&#x5411;&#x524D;&#xFF0C;&#x5947;&#x6570;&#x76F8;&#x53CD;&#x3002;</p>
+<pre class="code">animation-fill-mode: both;&#xA0;//&#x8BBE;&#x7F6E;&#x52A8;&#x753B;&#x65F6;&#x95F4;&#x5916;&#x5C5E;&#x6027;<strong>none&#x3001;forwards&#x3001;backwords</strong>&#x548C;<strong>both</strong></pre>
+<p>}</p></div>

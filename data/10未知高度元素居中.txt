@@ -1,0 +1,8 @@
+<div id="cnblogs_post_body"><pre><code class="css"><span class="hljs-class">.parent <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">position:<span class="hljs-value"> relative;
+<span class="hljs-rule">}
+<span class="hljs-class">.child <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">position:<span class="hljs-value"> absolute;
+  <span class="hljs-rule"><span class="hljs-attribute">top:<span class="hljs-value"> <span class="hljs-number">50%;
+  <span class="hljs-rule"><span class="hljs-attribute">transform:<span class="hljs-value"> <span class="hljs-function">translateY(-<span class="hljs-number">50%);
+<span class="hljs-rule">}</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></code></pre></div>

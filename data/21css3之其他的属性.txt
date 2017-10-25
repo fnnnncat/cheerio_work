@@ -1,0 +1,54 @@
+<div id="cnblogs_post_body"><p>1,&#x81EA;&#x7531;&#x7F29;&#x653E;&#x5C5E;&#x6027;resize</p>
+<p>&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x771F;&#x7684;&#x5F88;&#x597D;&#x73A9;&#x5462;&#xFF0C;&#x5141;&#x8BB8;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x62D6;&#x52A8;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x4FEE;&#x6539;&#x5143;&#x7D20;&#x7684;&#x5C3A;&#x5BF8;&#x6765;&#x6539;&#x53D8;&#x5143;&#x7D20;&#x7684;&#x5927;&#x5C0F;&#x3002;</p>
+<p>&#x8BB0;&#x4F4F;&#xFF0C;&#x5F97;&#x52A0;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x524D;&#x7F00;</p>
+<p>&#x9002;&#x7528;&#x5BF9;&#x8C61;&#xFF1A;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;overflow&#x5C5E;&#x6027;&#x7684;&#x4EFB;&#x4F55;&#x5143;&#x7D20;</p>
+<p>&#x53D6;&#x503C;&#xFF1A;</p>
+<p>none:&#x4E0D;&#x53EF;&#x4EE5;&#x62D6;&#x52A8;</p>
+<p>both:&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5143;&#x7D20;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;</p>
+<p>horizontal:&#x53EA;&#x80FD;&#x4FEE;&#x6539;&#x5BBD;&#x5EA6;</p>
+<p>vertical&#xFF1A;&#x53EA;&#x80FD;&#x4FEE;&#x6539;&#x9AD8;&#x5EA6;</p>
+<p>inherit&#xFF1A;&#x7EE7;&#x627F;&#x7236;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;</p>
+<p>2,&#x5916;&#x8F6E;&#x5ED3;&#x5C5E;&#x6027;outline</p>
+<p>&#x6548;&#x679C;&#xFF1A;&#x4E0E;border&#x76F8;&#x4F3C;&#xFF0C;&#x4F46;&#x4E0E;border&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;&#x5916;&#x8F6E;&#x5ED3;&#x7EBF;&#x4E0D;&#x5360;&#x7528;&#x7F51;&#x9875;&#x5E03;&#x5C40;&#x7A7A;&#x95F4;&#xFF0C;&#x5916;&#x8F6E;&#x5ED3;&#x662F;&#x4E00;&#x79CD;</p>
+<p>&#x52A8;&#x6001;&#x7684;&#x6837;&#x5F0F;&#xFF0C;&#x53EA;&#x6709;&#x5143;&#x7D20;&#x83B7;&#x53D6;&#x5230;&#x7126;&#x70B9;&#x6216;&#x8005;&#x88AB;&#x6FC0;&#x6D3B;&#x662F;&#x5448;&#x732E;&#xFF1B;</p>
+<p>&#x53D6;&#x503C;&#xFF1A;</p>
+<p>outline-color:&#x9ED8;&#x8BA4;&#x9ED1;&#x8272;</p>
+<p>outline-style:&#x9ED8;&#x8BA4;none</p>
+<p>outline-width:&#x9ED8;&#x8BA4;medium</p>
+<p>outline-offset:&#x8F6E;&#x5ED3;&#x8FB9;&#x6846;&#x7684;&#x504F;&#x79FB;&#x4F4D;&#x7F6E;&#x6570;&#x503C;&#xFF0C;&#x53EF;&#x4EE5;&#x53D6;&#x8D1F;&#xFF0C;&#x53C2;&#x6570;&#x4E3A;&#x6B63;&#x65F6;&#xFF0C;&#x8868;&#x793A;&#x8F6E;&#x5ED3;&#x8FB9;&#x6846;&#x5411;&#x5916;&#x504F;&#x79FB;&#x51E0;&#x4E2A;&#x50CF;&#x7D20;</p>
+<p>&#xFF0C;&#x4E3A;&#x8D1F;&#xFF0C;&#x5219;&#x662F;&#x5411;&#x5185;&#x504F;&#x79FB;&#x3002;</p>
+<p>inhert&#xFF1A;&#x7EE7;&#x627F;&#x7236;&#x5143;&#x7D20;</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">&lt;</span><span style="color: #800000;">textarea </span><span style="color: #ff0000;">cols</span><span style="color: #0000ff;">=&quot;30&quot;</span><span style="color: #ff0000;"> rows</span><span style="color: #0000ff;">=&quot;10&quot;</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">textarea</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span><span style="background-color: #f5f5f5; color: #800000;">
+textarea</span><span style="background-color: #f5f5f5; color: #000000;">{</span><span style="background-color: #f5f5f5; color: #ff0000;">
+    -webkit-resize</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> vertical</span><span style="background-color: #f5f5f5; color: #000000;">;</span><span style="background-color: #f5f5f5; color: #ff0000;">
+    -moz-resize</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> vertical</span><span style="background-color: #f5f5f5; color: #000000;">;</span><span style="background-color: #f5f5f5; color: #ff0000;">
+    -o-resize</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> vertical</span><span style="background-color: #f5f5f5; color: #000000;">;</span><span style="background-color: #f5f5f5; color: #ff0000;">
+    -ms-resize</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> vertical</span><span style="background-color: #f5f5f5; color: #000000;">;</span><span style="background-color: #f5f5f5; color: #ff0000;">
+    resize</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> vertical</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span></pre>
+</div>
+<p>&#xA0;</p>
+<p>3&#xFF0C;&#x751F;&#x6210;&#x5185;&#x5BB9;content</p>
+<p>css3&#x4E2D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4F2A;&#x7C7B;&#x201C;:before&#x201D;,&quot;after&quot;&#xFF0C;&#x548C;css3&#x7684;&#x4F2A;&#x5143;&#x7D20;&#x201C;::before&#x201D;&#xFF0C;&#x548C;&quot;::after&quot;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x5173;&#x952E;&#x5C31;&#x662F;</p>
+<p>&#x4F9D;&#x9760;css3&#x4E2D;&#x7684;&#x201C;content&#x201D;&#x5C5E;&#x6027;&#x6765;&#x5B9E;&#x73B0;&#x7684;&#x3002;&#xFF08;&#x5BF9;img&#x548C;input&#x4E0D;&#x8D77;&#x4F5C;&#x7528;&#xFF09;</p>
+<p>content&#x914D;&#x5408;css&#x7684;&#x4F2A;&#x7C7B;&#x6216;&#x8005;&#x4F2A;&#x5143;&#x7D20;&#xFF0C;&#x4E00;&#x534A;&#x53EF;&#x4EE5;&#x505A;&#x4EE5;&#x4E0B;&#x7684;&#x4E8B;&#x60C5;&#xFF1A;</p>
+<p>&#xFF08;1&#xFF09;none:&#x4E0D;&#x751F;&#x6210;&#x4EFB;&#x4F55;&#x5185;&#x5BB9;</p>
+<p>&#xFF08;2&#xFF09;attr:&#x63D2;&#x5165;&#x6807;&#x7B7E;&#x7684;&#x5C5E;&#x6027;&#x503C;</p>
+<p>&#xFF08;3&#xFF09;url:&#x4F7F;&#x7528;&#x6307;&#x5B9A;&#x7684;&#x7EDD;&#x5BF9;&#x6216;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x5916;&#x90E8;&#x8D44;&#x6E90;&#xFF08;&#x56FE;&#x50CF;&#xFF0C;&#x58F0;&#x9891;&#x7B49;&#xFF09;</p>
+<p>&#xFF08;4&#xFF09;string:&#x63D2;&#x5165;&#x5B57;&#x7B26;&#x4E32;</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">&lt;</span><span style="color: #800000;">h1 </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">=&quot;testContent&quot;</span><span style="color: #ff0000;">name</span><span style="color: #0000ff;">=&quot;myName&quot;</span><span style="color: #0000ff;">&gt;</span>&#x5728;&#x6211;&#x7684;&#x540E;&#x9762;&#x63D2;&#x5165;&#x6211;&#x7684;&#x540D;&#x5B57;<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span><span style="background-color: #f5f5f5; color: #800000;">
+#testContent::after </span><span style="background-color: #f5f5f5; color: #000000;">{</span><span style="background-color: #f5f5f5; color: #ff0000;">
+  content</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">attr(name)</span><span style="background-color: #f5f5f5; color: #000000;">;</span><span style="background-color: #f5f5f5; color: #ff0000;">
+  color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;"> red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="background-color: #f5f5f5; color: #000000;">}</span><span style="background-color: #f5f5f5; color: #800000;">
+&lt;style&gt;</span></pre>
+</div>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151011095037346-1050009117.png" alt=""></p>
+<p>&#xA0;</p>
+<div class="cnblogs_code">&#xA0;</div></div>

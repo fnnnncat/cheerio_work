@@ -1,0 +1,1 @@
+<div id="cnblogs_post_body"><p><code class="javascript keyword">var</code>&#xA0;<code class="javascript plain">url = encodeURI(</code><code class="javascript string">&quot;http://xxx.xxx.xxx.23?&quot;</code>&#xA0;<code class="javascript plain">+ &#x4E2D;&#x6587;);</code></p></div>

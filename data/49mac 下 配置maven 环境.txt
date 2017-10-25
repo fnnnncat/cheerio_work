@@ -1,0 +1,44 @@
+<div id="cnblogs_post_body"><div>
+<p>Mac OS X &#x5B89;&#x88C5;Maven:</p>
+<ul>
+<li>
+<p>&#x4E0B;&#x8F7D; https://maven.apache.org/download.cgi, &#x5E76;&#x89E3;&#x538B;&#x5230;&#x67D0;&#x4E2A;&#x76EE;&#x5F55;&#x3002;&#x4F8B;&#x5982;/Users/robbie/apache-maven-3.5.3</p>
+</li>
+<li>
+<p>&#x6253;&#x5F00;<code>Terminal</code>,&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF0C;&#x8BBE;&#x7F6E;<code>Maven classpath</code></p>
+<pre class="hljs undefined"><code> $ vi ~/.bash_profile</code></pre>
+<p>&#x6DFB;&#x52A0;&#x4E0B;&#x5217;&#x4E24;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x4E4B;&#x540E;&#x4FDD;&#x5B58;&#x5E76;&#x9000;&#x51FA;<code>Vi</code>&#xFF1A;</p>
+<pre class="hljs undefined"><code> export M2_HOME=/Users/robbie/apache-maven-3.5.0
+ export PATH=$PATH:$M2_HOME/bin</code></pre>
+</li>
+</ul>
+<div class="image-package">bash_profile</div>
+<ul>
+<li>
+<p>&#x8F93;&#x5165;&#x547D;&#x4EE4;&#x4EE5;&#x4F7F;<code>bash_profile</code>&#x751F;&#x6548;</p>
+<pre class="hljs undefined"><code> $ source ~/.bash_profile</code></pre>
+</li>
+<li>
+<p>&#x8F93;&#x5165;<code>mvn -v</code>&#x67E5;&#x770B;<code>Maven</code>&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;</p>
+</li>
+<li>
+<p>&#x5982;&#x679C;&#x9047;&#x5230;&#x4EE5;&#x4E0B;&#x5F02;&#x5E38;&#xFF0C;&#x91CD;&#x65B0;&#x7F16;&#x8F91;<code>bash_profile</code>&#x6587;&#x4EF6;&#xFF0C;&#x589E;&#x52A0;<code>export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home</code>&#x540E;&#xFF0C;&#x5E76;&#x91CD;&#x65B0;&#x8FD0;&#x884C;<code>$ source ~/.bash_profile</code>&#x5373;&#x53EF;&#x3002;</p>
+</li>
+</ul>
+<div class="image-package">exception</div>
+<div class="image-package">new bash_profile</div>
+<div class="image-package"><img src="http://images2017.cnblogs.com/blog/813419/201710/813419-20171012165836012-485931055.png" alt="">
+<p>&#xA0;</p>
+<br>
+<div class="image-caption">maven version</div>
+
+
+
+</div>
+
+
+
+</div>
+<p>
+
+<br><br>&#x4F5C;&#x8005;&#xFF1A;ted005<br>&#x94FE;&#x63A5;&#xFF1A;http://www.jianshu.com/p/191685a33786<br>&#x4F86;&#x6E90;&#xFF1A;&#x7B80;&#x4E66;<br>&#x8457;&#x4F5C;&#x6743;&#x5F52;&#x4F5C;&#x8005;&#x6240;&#x6709;&#x3002;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x8054;&#x7CFB;&#x4F5C;&#x8005;&#x83B7;&#x5F97;&#x6388;&#x6743;&#xFF0C;&#x975E;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p></div>

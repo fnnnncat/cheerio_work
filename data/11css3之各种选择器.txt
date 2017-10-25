@@ -1,0 +1,41 @@
+<div id="cnblogs_post_body"><p>css3&#x4E2D;&#x65B0;&#x589E;&#x7684;&#x9009;&#x62E9;&#x5668;&#x53EF;&#x4EE5;&#x7B80;&#x4FBF;&#x8BB8;&#x591A;&#x6837;&#x5F0F;&#x3002;</p>
+<p>&#x6B64;&#x6B21;&#x7528;&#x4E86;&#x5C5E;&#x6027;&#x9009;&#x62E9;&#x5668;&#xFF0C;root,not,empty,target,first-child&#xFF0C;last-child,ntn-child(n),ntn-last-child(n),</p>
+<p>first-of-type,nth-of-type(n),last-of-type,nth-last-of-type(n),only-child,only-of-type.</p>
+<p>&#x6E90;&#x7801;&#x5982;&#x4E0B;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p>&lt;body&gt;<br>&lt;div id=&quot;header&quot;&gt;&#x8FD9;&#x91CC;&#x662F;&#x9875;&#x5934;&lt;/div&gt;<br>&lt;div id=&quot;content&quot;&gt;<br>&lt;ol&gt;<br>&lt;li&gt;&lt;a href=&quot;http://...&quot;&gt;&#x6211;&#x662F;&#x7B2C;&#x4E00;&#x4E2A;&#x94FE;&#x63A5;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;.img&quot; class=&quot;icon&quot;&gt;&#x6211;&#x662F;&#x7B2C;&#x4E8C;&#x4E2A;&#x94FE;&#x63A5;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;#&quot; name=&quot;myNameIsThirdBlock&quot;&gt;&#x6211;&#x662F;&#x7B2C;&#x4E09;&#x4E2A;&#x94FE;&#x63A5;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a id=&quot;fourthHref&quot;href=&quot;#testTarget&quot; &gt;&#x6211;&#x662F;&#x7B2C;&#x56DB;&#x4E2A;&#x94FE;&#x63A5;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a id=&quot;testEmpty&quot;&gt;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a&gt;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a &gt;&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;p id=&quot;testTarget&quot;&gt;&#x6D4B;&#x8BD5;target&#x800C;&#x5DF2;&lt;/p&gt;<br>&lt;/div&gt;<br>&lt;div id=&quot;footer&quot;&gt;<br>    &#x8FD9;&#x91CC;&#x662F;&#x9875;&#x5C3E;<br>&lt;/div&gt;<br>&lt;/body&gt;</p>
+<p>&lt;style&gt;</p>
+<p>/*root&#x6839;&#x9009;&#x62E9;&#x5668;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;html*/<br>:root{<br>    background:#A0F3C2;<br>}</p>
+<p>/*&#x5426;&#x5B9A;&#x9009;&#x62E9;&#x5668;&#xFF0C;&#x9664;&#x4E86;id&#x4E3A;content&#x4E4B;&#x5916;&#x6539;&#x53D8;&#x6837;&#x5F0F;*/<br>div:not([id=&quot;content&quot;]){<br>    height:3rem;<br>    margin:20px 0;<br>    color:#97BDEF;<br>    text-align:center;<br>    font-size:1.2rem;<br>    line-height:3rem;<br>    border:.2rem solid #EAA0F3; <br>}<br>ol &gt; li{<br>    border:.2rem dotted #ABF7FB;<br>    margin:10%;<br>}</p>
+<p>/*&#x9009;&#x62E9;&#x7236;&#x5143;&#x7D20;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B50;&#x5143;&#x7D20;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x540E;&#x4EE3;&#x5143;&#x7D20;</p>
+<p>&#xA0;last-child&#x76F8;&#x4F3C;</p>
+<p>*/</p>
+<p>ol &gt; li:first-child{<br> font-size:1.5rem;<br> font-weight:bold;<br> color:red;<br>}</p>
+<p>/*&#x5B9A;&#x4F4D;&#x67D0;&#x4E2A;&#x7236;&#x5143;&#x7D20;&#x7684;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x5B50;&#x5143;&#x7D20;</p>
+<p>&#xA0; &#xA0;&#x53CC;&#x6570;&#x7684;li &#x52A0;&#x4E0A;&#x9634;&#x5F71;</p>
+<p>&#xA0; &#x201C;n&#x201D;&#x662F;&#x53C2;&#x6570;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;&#x6B63;&#x6574;&#x6570;&#x503C;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x8868;&#x8FBE;&#x5F0F;</p>
+<p>&#xA0; nth-last-child(n)&#x76F8;&#x4F3C; &#xA0;</p>
+<p><span style="line-height: 1.5;">*/</span></p>
+<p>ol &gt; li:nth-child(2n){<br>    box-shadow: 10px 10px 5px #888888;<br>    <br>}</p>
+<p>/*&#x6765;&#x63A7;&#x5236;&#x4EC5;&#x6709;&#x4E00;&#x4E2A;&#x5B50;&#x5143;&#x7D20;&#x7684;&#x80CC;&#x666F;&#x6837;&#x5F0F;*/<br>ol  :only-child{<br>    display:block;<br>    background:#E2ACCA;<br>}</p>
+<p>/*&#x5C5E;&#x6027;&#x9009;&#x62E9;&#x5668; &#x76F8;&#x5F53;&#x4E8E;&#x901A;&#x914D;&#x7B26;</p>
+<p>*E[att^=&quot;val&quot;] &#x5C5E;&#x6027;&#x4EE5;val&#x5F00;&#x5934;&#x7684;&#x4EFB;&#x4F55;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>*E[att$=&quot;val&quot;] &#x5C5E;&#x6027;&#x4EE5;val&#x7ED3;&#x5C3E;&#x7684;&#x4EFB;&#x4F55;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>*E[att*=&quot;val&quot;] &#x5C5E;&#x6027;&#x5305;&#x542B;val&#x5B57;&#x7B26;&#x4E32;</p>
+<p>*</p>
+<p>*/<br> a[href^=http]{<br>  background: pink;<br>  display:block;<br>  color:#fff;<br>}<br>a[href$=img]{<br>  background: #F1D182;<br>  display:block;<br>  color: #fff;<br>}<br>a[name*=Third]{<br>  background: #CA88E6;<br>  display:block;<br>  color: #fff;<br>}</p>
+<p>/*&#x7A7A;&#x9009;&#x62E9;&#x5668;*/</p>
+<p>a:empty{<br>    display:none;<br>}<br>p{<br>    display:none;<br>}</p>
+<p>/*&#x76EE;&#x6807;&#x9009;&#x62E9;&#x5668;&#xFF0C;&#x7528;&#x6765;&#x5339;&#x914D;&#x6587;&#x6863;(&#x9875;&#x9762;)&#x7684;<strong>url&#x7684;&#x67D0;&#x4E2A;&#x6807;&#x5FD7;&#x7B26;&#x7684;&#x76EE;&#x6807;&#x5143;&#x7D20;</strong>*/</p>
+<p>#testTarget:target{<br>    background:yellow;<br>    display:block;<br>    margin:10%;<br>    <br>}<br>&lt;/style&gt;</p>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151006173939003-1236582141.png" alt=""></p>
+<p>&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#x5C31;&#x4E0D;&#x5177;&#x4F53;&#x7684;&#x5199;&#x4E86;</p>
+<p>&#xFF1A;enabled</p>
+<p>:disabled</p>
+<p>:checked</p>
+<p>::slelction</p>
+<p>:read-only</p>
+<p>:read-write</p>
+<p>::before ::after</p></div>

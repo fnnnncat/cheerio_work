@@ -1,0 +1,22 @@
+<div id="cnblogs_post_body"><p>jquey</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">var</span> uniqueArr =<span style="color: #000000;"> [];
+$.each(focusVotes, </span><span style="color: #0000ff;">function</span><span style="color: #000000;">(i, el){
+    </span><span style="color: #0000ff;">if</span>($.inArray(el, uniqueArr) === -1<span style="color: #000000;">) uniqueArr.push(el);
+});</span></pre>
+</div>
+<p>js</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">var</span> arr = [9, 9, 111, 2, 3, 4, 4, 5, 7<span style="color: #000000;">];
+</span><span style="color: #0000ff;">var</span> sortedArr =<span style="color: #000000;"> arr.sort(); 
+</span><span style="color: #0000ff;">var</span> results =<span style="color: #000000;"> [];
+</span><span style="color: #0000ff;">for</span> (<span style="color: #0000ff;">var</span> i = 0; i &lt; arr.length - 1; i++<span style="color: #000000;">) {
+    </span><span style="color: #0000ff;">if</span> (sortedArr[i + 1] ==<span style="color: #000000;"> sortedArr[i]) {
+        results.push(sortedArr[i]);
+    }
+}
+
+alert(results);</span></pre>
+</div>
+<p>&#xA0;</p>
+<pre><br><br></pre></div>

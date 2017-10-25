@@ -1,0 +1,29 @@
+<div id="cnblogs_post_body"><p>&#x8272;&#x5F69;&#x6E10;&#x53D8; &#xFF1A; gradient&#xFF08;&#x7EBF;&#x6027;&#x6E10;&#x53D8; &#x548C; &#x5F84;&#x5411;&#x6E10;&#x53D8;&#xFF09;</p>
+<p>&#x652F;&#x6301;&#x60C5;&#x51B5;&#xFF1A;&#xA0;IE10+&#x3001;Firefox19.0+&#x3001;Chrome26.0+ &#x548C; Opera12.1+</p>
+<p>linear-gradient(to right,red,green) &#xA0;</p>
+<p>linear:&#x6E10;&#x53D8;&#x7C7B;&#x578B;&#xFF0C;radial&#x4E3A;&#x5F84;&#x5411;&#x6E10;&#x53D8;</p>
+<p>to right &#xFF1A;&#x6E10;&#x53D8;&#x65B9;&#x5411; &#xFF0C;&#x53EF;&#x4EE5;&#x5199;&#x89D2;&#x5EA6;&#xFF08;&#x76F8;&#x5F53;&#x4E8E;90deg&#xFF09;</p>
+<p>red,green:&#x4ECE;&#x7EA2;&#x8272;&#x6E10;&#x53D8;&#x5230;&#x7EFF;&#x8272;&#xFF0C;&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A;&#x503C;</p>
+<p>&#xA0;</p>
+<p>&#x8FD9;&#x91CC;&#x8981;&#x8BF4;&#x4E00;&#x70B9;&#x7684;&#xFF0C;</p>
+<p>&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x5B9E;&#x73B0;&#x6709;&#x4E9B;&#x8BB8;&#x4E0D;&#x540C;&#xFF0C;&#x7EDF;&#x4E00;&#x7684;&#x6807;&#x51C6; &#x662F;&#x8FD9;&#x4E2A;&#x6837;&#x5B50;&#x7684;</p>
+<p><span class="token property">&#xA0; &#xA0;background-image<span class="token punctuation">: <span class="token function">linear-gradient<span class="token punctuation">(&lt;point&gt; || &lt;angle&gt;,]? &lt;stop&gt;, &lt;stop&gt; [, &lt;stop&gt;]*<span class="token punctuation">)</span></span></span></span></span></p>
+<p><span class="token property"><span class="token punctuation"><span class="token function"><span class="token punctuation"><span class="token punctuation">&#x4E0B;&#x9762;&#x5C0F;&#x7F16;&#x6765;&#x753B;&#x51E0;&#x4E2A;&#x6E10;&#x53D8;&#x7684;&#x56FE;&#x5F62;</span></span></span></span></span></p>
+<p>p {<br>  width: 400px;<br>  height: 150px;<br>  line-height: 150px;<br>  text-align:center;<br>  color: white;<br>  font-size:24px;<br>  background:linear-gradient(80deg,pink,indigo);<br>}</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151004154314761-593277805.png" alt=""></p>
+<p>&#xA0;</p>
+<p>&#x518D;&#x8BA9;&#x6211;&#x4EEC;&#x770B;&#x4E0B;&#x5F84;&#x5411;&#x7684;&#x6E10;&#x53D8;</p>
+<p>p {<br>  width: 400px;<br>  height: 150px;<br>  line-height: 150px;<br>  text-align:center;<br>  color: white;<br>  font-size:24px;<br>  background:radial-gradient(pink,indigo);<br>}</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151004154513449-730132894.png" alt=""></p>
+<p>&#x6765;&#x4E00;&#x4E2A;&#x4E2D;&#x95F4;&#x7C89;&#x7C89;&#x7684;&#x706F;&#x5149;&#x6548;&#x679C;&#xFF0C;&#x6709;&#x6728;&#x6709;&#x770B;&#x8D77;&#x6765;&#x5FC3;&#x60C5;&#x6109;&#x60A6;&#x5462;&#xFF0C;&#x563F;&#x563F;&#x3002;</p>
+<p>&#xFF08;&#x8FD9;&#x91CC;&#x7528;&#x7684;&#x662F;chrome&#xFF09;</p>
+<p>div {<br>  width:200px;<br>  height:200px;<br>  background:-webkit-radial-gradient(100px 0px,pink,indigo);<br>}</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151004160349683-551318058.png" alt=""></p>
+<p>&#xA0;</p>
+<p>&#x5728;&#x6765;&#x4E2A;&#x7D2B;&#x8272;&#x7684;&#x7403; &#x7C89;&#x8272;&#x7684;&#x5149;&#x3002;</p>
+<p> div {<br>  width:200px;<br>  height:200px;<br>  border-radius:100px;<br>  background:-webkit-radial-gradient(55px 55px,pink,indigo,pink);</p>
+<p>}</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151004155832402-850050954.png" alt=""></p>
+<p>&#xA0;</p>
+<p>&#x611F;&#x89C9;&#x597D;&#x6F02;&#x6F02;~&#x54C8;&#x554A;&#x54C8;</p>
+<p>&#xA0;</p></div>

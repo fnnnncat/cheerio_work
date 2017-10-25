@@ -1,0 +1,39 @@
+<div id="cnblogs_post_body"><p>&#x4ECA;&#x5929;&#x6572;&#x4EE3;&#x7801;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x60F3;&#x4E86;&#x60F3;bind&#x51FD;&#x6570;</p>
+<div class="cnblogs_code">
+<pre>Function.prototype.bind = Function.prototype.bind || <span style="color: #0000ff;">function</span><span style="color: #000000;"> (target) {
+  </span><span style="color: #0000ff;">var</span> self = <span style="color: #0000ff;">this</span><span style="color: #000000;">;
+  </span><span style="color: #0000ff;">return</span> <span style="color: #0000ff;">function</span><span style="color: #000000;"> (args) {
+    </span><span style="color: #0000ff;">if</span> (!(args <span style="color: #0000ff;">instanceof</span><span style="color: #000000;"> Array)) {
+      args </span>=<span style="color: #000000;"> [args];
+    }
+    self.apply(target, args);
+  };
+};</span></pre>
+</div>
+<p>&#xA0;</p>
+<div class="cnblogs_code">
+<pre><span style="color: #008000;">/*</span><span style="color: #008000;">example 1</span><span style="color: #008000;">*/</span> 
+<span style="color: #0000ff;">function</span> f1(y, z){ <span style="color: #0000ff;">return</span> <span style="color: #0000ff;">this</span>.x + y +<span style="color: #000000;"> z;} 
+</span><span style="color: #008000;">//</span><span style="color: #008000;">&#x8C03;&#x7528; 1 </span>
+<span style="color: #0000ff;">var</span> g1 = f1.bind({x:1}, 2); <span style="color: #008000;">//</span><span style="color: #008000;">this.x = 1; y = 2; </span>
+console.loog( g1(3) ); <span style="color: #008000;">//</span><span style="color: #008000;">this.x + y + 3 = 6; </span><span style="color: #008000;">
+//</span><span style="color: #008000;">&#x8C03;&#x7528; 2 </span>
+<span style="color: #0000ff;">var</span> g2 = f1.bind({x:1}); <span style="color: #008000;">//</span><span style="color: #008000;">this.x = 1; </span>
+console.log( g2(2,3) ); <span style="color: #008000;">//</span><span style="color: #008000;">this.x + 2 + 3 = 6 </span>
+
+<span style="color: #008000;">/*</span><span style="color: #008000;">example 2</span><span style="color: #008000;">*/</span> 
+<span style="color: #0000ff;">var</span> f2(x, y){ <span style="color: #0000ff;">return</span> x +<span style="color: #000000;"> y; } 
+</span><span style="color: #008000;">//</span><span style="color: #008000;">&#x8C03;&#x7528; </span>
+<span style="color: #0000ff;">var</span> g3 = f2.bind(<span style="color: #0000ff;">null</span>, 1); <span style="color: #008000;">//</span><span style="color: #008000;">x = 1 </span>
+console.log( g3(2) ); <span style="color: #008000;">//</span><span style="color: #008000;">x + 2 = 3 </span></pre>
+</div>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">var</span> eleBtn = document.getElementById(&quot;button&quot;<span style="color: #000000;">) 
+, eleText </span>= document.getElementById(&quot;text&quot;<span style="color: #000000;">); 
+
+eleBtn.onclick </span>= <span style="color: #0000ff;">function</span><span style="color: #000000;">(color) { 
+color </span>= color || &quot;#003399&quot;<span style="color: #000000;">; 
+</span><span style="color: #0000ff;">this</span>.style.color = color; <span style="color: #008000;">//</span><span style="color: #008000;">&#x6B64;&#x65F6;&#x7684;this&#x6307;&#x5411;eleText </span>
+}.bind(eleText, &quot;#cd0000&quot;); </pre>
+</div>
+<p>&#xA0;</p></div>

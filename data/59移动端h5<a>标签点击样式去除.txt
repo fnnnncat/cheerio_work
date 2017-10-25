@@ -1,0 +1,2 @@
+<div id="cnblogs_post_body"><p>&#x628A;&#x70B9;&#x51FB;&#x9AD8;&#x4EAE;&#x90E8;&#x5206;&#x8BBE;&#x4E3A;transparent&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;</p>
+<p>-webkit-tap-highlight-color:transparent;</p></div>

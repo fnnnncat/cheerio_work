@@ -1,0 +1,39 @@
+<div id="cnblogs_post_body"><p>html&#x6807;&#x7B7E;&#x7684;&#x8BBE;&#x8BA1;&#x90FD;&#x662F;&#x6709;&#x8BED;&#x4E49;&#x8003;&#x8651;&#x7684;</p>
+<p>div &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;division &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x5206;&#x9694;</p>
+<p>span &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; span &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x8303;&#x56F4;</p>
+<p>ol &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;ordered list &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x6392;&#x5E8F;&#x5217;&#x8868;</p>
+<p>ul &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;unordered list &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x65E0;&#x5E8F;&#x5217;&#x8868;</p>
+<p>li &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; list item &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x5217;&#x8868;&#x9879;&#x76EE;</p>
+<p>dl &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;definition list &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x5B9A;&#x4E49;&#x5217;&#x8868;</p>
+<p>dt &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;definition term &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x5B9A;&#x4E49;&#x672F;&#x8BED;</p>
+<p>dd &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;definition description &#xA0;&#x5B9A;&#x4E49;&#x63CF;&#x8FF0;</p>
+<p>del &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;delete &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x5220;&#x9664;</p>
+<p>ins &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; inserted &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x63D2;&#x5165;</p>
+<p>h1~h6 &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;header1~hearder6 &#xA0; &#xA0; &#xA0; &#x6807;&#x9898;1&#x5230;&#x6807;&#x9898;6</p>
+<p>p &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;paragraph &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x6BB5;&#x843D;</p>
+<p>hr &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; horizontal &#xA0; rule &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x6C34;&#x5E73;&#x5C3A;</p>
+<p>a &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;anchor &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x951A;</p>
+<p>abbr &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; abbreviation &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x7F29;&#x5199;&#x8BCD;</p>
+<p>acronym &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;acronym &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x53D6;&#x9996;&#x5B57;&#x6BCD;&#x7F29;&#x5199;&#x8BCD;</p>
+<p>address &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;address &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x5730;&#x5740;</p>
+<p>var &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;variable &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x53D8;&#x91CF;</p>
+<p>pre &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; preformtted &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x9884;&#x5B9A;&#x4E49;&#x683C;&#x5F0F;</p>
+<p>blockquote &#xA0; &#xA0;block quotation &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x533A;&#x5757;&#x5F15;&#x7528;&#x8BED;</p>
+<p>strong &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;strong &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x52A0;&#x91CD;</p>
+<p>em &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; emphasized &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x52A0;&#x91CD;</p>
+<p>b &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;blod &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x7C97;&#x4F53;</p>
+<p>i &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; italic &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x659C;&#x4F53;</p>
+<p>big &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; big &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x53D8;&#x5927;</p>
+<p>small &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; small &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x53D8;&#x5C0F;</p>
+<p>sup &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; superscripted &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x4E0A;&#x6807;</p>
+<p>sub &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; subscripted &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x4E0B;&#x6807;</p>
+<p>br &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;break &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x6362;&#x884C;</p>
+<p>center &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; center &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x5C45;&#x4E2D;</p>
+<p>u &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; underlined &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x4E0B;&#x5212;&#x7EBF;</p>
+<p>s &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; striketthrough &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#x5220;&#x9664;&#x7EBF;</p>
+<p>fieldset &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;fieldset &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x57DF;&#x96C6;</p>
+<p>caption &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;caption &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#x6807;&#x9898;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#x56E0;&#x4E3A;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x770B;&#x4E0D;&#x5230;&#x6548;&#x679C;&#xFF0C;&#x770B;&#x5230;&#x7684;&#x53EA;&#x80FD;&#x662F;&#x4EE3;&#x7801;&#xFF0C;&#x53EA;&#x80FD;&#x901A;&#x8FC7;&#x6807;&#x7B7E;&#x6765;&#x5224;&#x65AD;&#x5185;&#x5BB9;&#x7684;&#x8BED;&#x4E49;&#x3002;</p>
+<p>&#x6B63;&#x786E;&#x7684;&#x505A;&#x6CD5;&#x662F;&#x5148;&#x786E;&#x5B9A;HTML ,&#x786E;&#x5B9A;&#x8BED;&#x4E49;&#x7684;&#x6807;&#x7B7E;&#xFF0C;&#x518D;&#x6765;&#x9009;&#x7528;&#x5408;&#x9002;&#x7684;CSS</p></div>

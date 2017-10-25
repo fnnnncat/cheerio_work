@@ -1,0 +1,13 @@
+<div id="cnblogs_post_body"><p>css3&#x4E2D;&#x589E;&#x52A0;&#x7684;&#x80CC;&#x666F;&#x76F8;&#x5173;&#x7684;&#x6837;&#x5F0F;&#x5341;&#x5206;&#x597D;&#x7528;</p>
+<p>background-origin &#xA0;: &#x51B3;&#x5B9A;&#x4E86;&#x80CC;&#x666F;&#x5728;&#x76D2;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x521D;&#x59CB;&#x4F4D;&#x7F6E;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x4E09;&#x4E2A;&#x503C;&#xFF0C;border&#xFF0C;padding&#x548C;content;</p>
+<p>background-clip: &#x51B3;&#x5B9A;&#x4E86;&#x8FB9;&#x6846;&#x662F;&#x5426;&#x8986;&#x76D6;&#x4F4F;&#x80CC;&#x666F;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x4E24;&#x4E2A;&#x503C;&#xFF0C;border&#x548C;padding;</p>
+<p>background-size: &#x53EF;&#x6307;&#x5B9A;&#x80CC;&#x666F;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x4EE5;&#x50CF;&#x7D20;&#x6216;&#x767E;&#x5206;&#x6BD4;&#x663E;&#x793A;&#x3002;&#x5176;&#x4E2D;&#x503C;&#x8FD8;&#x6709;auto-&#x4E0D;&#x6539;&#x53D8;&#x539F;&#x59CB;&#x56FE;&#x7247;&#x5927;&#x5C0F;&#xFF0C;cover-&#x5C06;&#x56FE;&#x7247;&#x80CC;&#x666F;&#x7B49;&#x6BD4;&#x7F29;&#x653E;&#x586B;&#x6EE1;&#x6574;&#x4E2A;&#x5BB9;&#x5668;&#xFF0C;</p>
+<p>contain-&#x80CC;&#x666F;&#x56FE;&#x7247;&#x7B49;&#x6BD4;&#x7F29;&#x653E;&#x81F3;&#x67D0;&#x4E00;&#x8FB9;&#x7D27;&#x8D34;&#x5BB9;&#x5668;&#x8FB9;&#x7F18;&#x4E3A;&#x6B62;&#x3002;</p>
+<p>&#xA0;</p>
+<p>&lt;div class=&quot;contentOut&quot;&gt;&lt;span&gt;padding&lt;/span&gt;<br>    &lt;div class=&quot;content&quot;&gt;content&lt;/div&gt;<br>&lt;/div&gt;</p>
+<p>&lt;style&gt;</p>
+<p>.contentOut {<br>width:200px; <br>border:10px dashed indigo;<br>padding:30px; <br>background:pink url(http://d01.res.meilishuo.net/pic/m/8e/dd/57333fe05e4d227a4d45d8f25596_500_500.jpg) no-repeat; <br>background-size:200px 100px;<br>background-origin:content-box;<br>position: relative;<br>}<br>.contentOut span { <br>position: absolute; <br>left:0; <br>top:0;<br>}<br>.content {<br>height:100px; <br>border:1px solid #333;<br>}</p>
+<p>&lt;/style&gt;</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201510/813419-20151005201631440-99025444.png" alt="" width="694" height="293"></p>
+<p>&#x5982;&#x679C;&#x53E0;&#x52A0;&#x5199;&#x7684;&#x8BDD;&#xFF0C;&#x8BED;&#x6CD5;&#x5982;&#x4E0B;</p>
+<pre class="code">background &#xFF1A; [background-color] | [background-image] | [background-position][/background-size] | [background-repeat] | [background-attachment] | [background-clip] | [background-origin],...</pre></div>

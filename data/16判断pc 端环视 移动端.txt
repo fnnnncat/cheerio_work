@@ -1,0 +1,2 @@
+<div id="cnblogs_post_body"><p>&lt;script type=&quot;text/javascript&quot;&gt;<br>	if(navigator.userAgent.indexOf(&apos;Mobile&apos;) != -1){<br>	console.log(&quot;app&quot;);<br>}else{<br>    window.location.href=&quot;web_download.html&quot;;<br>    console.log(&quot;web&quot;);</p>
+<p>}</p></div>

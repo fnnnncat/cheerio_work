@@ -1,0 +1,41 @@
+<div id="cnblogs_post_body"><p>&#x540E;&#x7AEF;&#x63A5;&#x53E3;&#x6CA1;&#x51FA;&#x6765;&#x4E4B;&#x524D;&#x600E;&#x4E48;&#x529E;&#xFF1B;</p>
+<p>&#x62FF;&#x7740;&#x63A5;&#x53E3;&#x6587;&#x6863;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5199;&#x903B;&#x8F91;&#x4E86;&#xFF1B;</p>
+<p>&#x6570;&#x636E;&#x5F53;&#x7136;&#x662F;&#x8981;&#x81EA;&#x5DF1;&#x9020;&#x4E86;&#xFF1B;</p>
+<p>&#x5982;&#x4F55;&#x9020;&#x4E86;&#xFF1B;</p>
+<p>&#x770B;&#x4F60;&#x4E86;&#xFF1B;</p>
+<p>&#x6069;;</p>
+<p>biubiubiu&#xA0;</p>
+<p>&#x603B;&#x7ED3;&#x4E00;&#x4E0B;&#xFF0C;&#x6700;&#x8FD1;&#x5728;&#x505A;&#x7684;&#x4E24;&#x4E2A;&#x9879;&#x76EE;&#x7684;mock&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;&#xFF08;pc&#x7AEF;&#x5355;&#x9875;&#x9762;&#x7CFB;&#x7EDF; &amp; h5 react(redux)&#xFF09;</p>
+<p>&#x9879;&#x76EE;&#x4E00;&#xFF0C;pc&#x7AEF;&#x5355;&#x9875;&#x9762;&#x7CFB;&#x7EDF;&#xFF08;mock.js&#xFF09;</p>
+<p>&#xA0; &#xA0;1,&#x5B89;&#x88C5;&#xFF08;npm install mock&#xFF09;</p>
+<p>&#xA0; &#xA0;2,index&#x9875;&#x9762;&#x5F15;&#x7528;&#xFF0C;&#x914D;&#x7F6E;mock.js</p>
+<p>&#xA0; &#xA0; &#x73B0;&#x5728;&#x7528;&#x4E86;&#x5C01;&#x88C5;&#x7684;&#x6784;&#x5EFA;&#x5DE5;&#x5177;&#xFF0C;&#x5927;&#x4F53;&#x601D;&#x8DEF;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;</p>
+<p>&#xA0; &#xA0; &#xA0;<img src="http://images2015.cnblogs.com/blog/813419/201704/813419-20170426164222694-1761507322.png" alt=""></p>
+<p>&#xA0;mock.js &#xA0;&#xFF08;&#x66FF;&#x6362;&#x5B9E;&#x9645;&#x63A5;&#x53E3;&#x5730;&#x5740;&#xFF09;</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201704/813419-20170426164408912-183997184.png" alt=""></p>
+<p>&#xFF08;&#x6B63;&#x5E38;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;&#xFF09;</p>
+<div class="cnblogs_code">
+<pre>Mock.mock(&apos;http://test.com&apos;<span style="color: #000000;">, {
+    </span>&apos;name&apos;       : &apos;[@name](/user/name)()&apos;<span style="color: #000000;">,
+    </span>&apos;age|1-100&apos;: 100<span style="color: #000000;">,
+    </span>&apos;color&apos;       : &apos;[@color](/user/color)&apos;<span style="color: #000000;">
+});</span></pre>
+</div>
+<p>2&#xFF0C;&#x53D1;&#x9001;&#x8BF7;&#x6C42;</p>
+<p>&#xFF08;&#x6B63;&#x5E38;&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;&#xFF09;</p>
+<div class="cnblogs_code">
+<pre><span style="color: #000000;">$.ajax({
+    url: </span>&apos;http://test.com&apos;<span style="color: #000000;">,
+}).done(</span><span style="color: #0000ff;">function</span><span style="color: #000000;">(data, status, xhr){
+    console.log(
+        JSON.stringify(data, </span><span style="color: #0000ff;">null</span>, 2<span style="color: #000000;">)
+    )    
+})</span></pre>
+</div>
+<p>&#xA0;(&#x9879;&#x76EE;&#x4E2D;&#x5C01;&#x88C5;&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;)</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201704/813419-20170426164914787-1133696013.png" alt=""></p>
+<p>&#xA0;</p>
+<p>&#xA0;&#xA0;</p>
+<p>&#x9879;&#x76EE;&#x4E8C;&#xFF0C;react&#xFF08;redux&#xFF09; (fetch)</p>
+<p><img src="http://images2015.cnblogs.com/blog/813419/201704/813419-20170426165230178-1246283323.png" alt=""></p>
+<p>&#xA0;</p></div>

@@ -1,0 +1,70 @@
+<div id="cnblogs_post_body"><p align="left"><strong>&#x8BED;&#x6CD5;&#xFF1A;</strong></p>
+<p align="left"><strong>zoom</strong>&#xFF1A;normal |&#xA0;<a href="http://www.w3chtml.com/css3/values/numeric/number.html">&lt;number&gt;</a>&#xA0;|&#xA0;<a href="http://www.w3chtml.com/css3/values/other/percentage.html">&lt;percentage&gt;</a></p>
+<p align="left"><strong>&#x9ED8;&#x8BA4;&#x503C;</strong>&#xFF1A;normal</p>
+<p align="left"><strong>&#x9002;&#x7528;&#x4E8E;</strong>&#xFF1A;&#x6240;&#x6709;&#x5143;&#x7D20;</p>
+<p align="left"><strong>&#x7EE7;&#x627F;&#x6027;</strong>&#xFF1A;&#x6709;</p>
+<p align="left"><strong>&#x53D6;&#x503C;&#xFF1A;</strong></p>
+<p align="left"><strong>normal</strong><strong>&#xFF1A;</strong></p>
+<p align="left">&#x4F7F;&#x7528;&#x5BF9;&#x8C61;&#x7684;&#x5B9E;&#x9645;&#x5C3A;&#x5BF8;&#x3002;</p>
+<p align="left"><a href="http://www.w3chtml.com/css3/values/numeric/number.html"><strong>&lt;number&gt;</strong></a><strong>&#xFF1A;</strong></p>
+<p align="left">&#x7528;&#x6D6E;&#x70B9;&#x6570;&#x6765;&#x5B9A;&#x4E49;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x4E0D;&#x5141;&#x8BB8;&#x8D1F;&#x503C;</p>
+<p align="left"><a href="http://www.w3chtml.com/css3/values/other/percentage.html"><strong>&lt;percentage&gt;</strong></a><strong>&#xFF1A;</strong></p>
+<p align="left">&#x7528;&#x767E;&#x5206;&#x6BD4;&#x6765;&#x5B9A;&#x4E49;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x4E0D;&#x5141;&#x8BB8;&#x8D1F;&#x503C;</p>
+<p align="left"><strong>&#x8BF4;&#x660E;&#xFF1A;</strong></p>
+<p align="left"><strong>&#x8BBE;&#x7F6E;&#x6216;&#x68C0;&#x7D22;&#x5BF9;&#x8C61;&#x7684;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;</strong></p>
+<ul>
+<li>&#x5BF9;&#x5E94;&#x7684;&#x811A;&#x672C;&#x7279;&#x6027;&#x4E3A;<strong>zoom</strong>&#x3002;</li>
+</ul>
+<p align="left"><strong>&#x517C;&#x5BB9;&#x6027;&#xFF1A;</strong></p>
+<ul>
+<li>&#x6D45;&#x7EFF;&#xA0;= &#x652F;&#x6301;</li>
+<li>&#x7EA2;&#x8272;&#xA0;= &#x4E0D;&#x652F;&#x6301;</li>
+<li>&#x58A8;&#x7EFF;&#xA0;= &#x90E8;&#x5206;&#x652F;&#x6301;</li>
+<li>&#x6A59;&#x8272;&#xA0;= &#x5B9E;&#x9A8C;&#x6027;&#x8D28;</li>
+</ul>
+<table border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<td>
+<p align="left"><a title="&#x67E5;&#x770B;&#x672C;&#x6587;&#x6863;&#x6D4B;&#x8BD5;&#x65F6;&#x6240;&#x7528;&#x6D4F;&#x89C8;&#x5668;&#x7248;&#x672C;" href="http://www.w3chtml.com/css3/properties/user-interface/zoom.html#title"><strong>&#x652F;&#x6301;&#x7248;&#x672C;</strong></a><strong>\</strong><strong>&#x7C7B;&#x578B;</strong></p>
+</td>
+<td>
+<p align="left"><strong>IE</strong></p>
+</td>
+<td>
+<p align="left"><strong>Firefox</strong></p>
+</td>
+<td>
+<p align="left"><strong>Safari</strong></p>
+</td>
+<td>
+<p align="left"><strong>Chrome</strong></p>
+</td>
+<td>
+<p align="left"><strong>Opera</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p align="left"><strong>&#x7248;&#x672C;</strong></p>
+</td>
+<td>
+<p align="left">6</p>
+</td>
+<td>
+<p align="left">4-18</p>
+</td>
+<td>
+<p align="left">5.1.7</p>
+</td>
+<td>
+<p align="left">13</p>
+</td>
+<td>
+<p align="left">11.5-12.5</p>
+</td>
+</tr>
+</tbody>
+</table></div>
