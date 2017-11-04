@@ -1,8 +1,0 @@
-<div id="cnblogs_post_body"><p>&#x989D;&#x3002;&#x4E00;&#x76F4;&#x4EE5;&#x4E3A;&#x90A3;&#x4E9B;&#x4E2A;&#x5C0F;&#x4E09;&#x89D2;&#x662F;&#x5207;&#x7684;&#x56FE;&#x7247;</p>
-<p>&#x539F;&#x6765;&#x7528;css&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0; &#x5C0F;&#x4E09;&#x89D2;&#x7684;&#x6548;&#x679C;&#x8036;&#x3002;</p>
-<p>&#xA0;</p>
-<p>height width &#x90FD;&#x8BBE;&#x4E3A;0&#xA0;</p>
-<p>border &#x5BBD;&#x5EA6;</p>
-<p>&#x5176;&#x4ED6;&#x4E09;&#x4E2A;&#x8FB9;&#x8BBE;&#x4E3A; &#x900F;&#x660E;</p>
-<p>&#xA0;</p>
-<p>&#x5C31;&#x662F;&#x4E09;&#x89D2;&#x5F62;&#x4E86;&#x54E6;~~~~~</p></div>

@@ -1,2 +1,0 @@
-<div id="cnblogs_post_body"><p>&#x5343;&#x4E07;&#x522B;&#x5F3A;&#x884C;&#x4FDD;&#x5B58;&#x9000;&#x51FA; &#xA0;&#xFF08;&#x300B;-&#x300A;&#xFF09;</p>
-<p>&#x539F;&#x56E0;&#xFF1A;&#x53EA;&#x6709;&#x8BFB;&#x6743;&#x9650;&#xFF0C;&#x6CA1;&#x6709;&#x5199;&#x6743;&#x9650;<br>&#x529E;&#x6CD5;&#xFF1A;&#x5207;&#x6362;&#x5230;root&#x7528;&#x6237;&#x4E0B;&#x4ECE;&#x65B0;&#x6253;&#x5F00;vi&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x8FDB;&#x884C;&#x7F16;&#x5199;</p></div>
